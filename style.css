@@ -1,0 +1,30 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(152, 152, 152);
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul.navBar > li {
+    border: 1px black solid;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    filter: drop-shadow(4px 5px 1px #00000042);
+}
+
+ul.navBar > li:hover {
+    background-color: rgb(183, 243, 201);
+    transform: translateY(8%);
+    cursor: pointer;
+    filter: drop-shadow(2px 3px 1px #00000042);
+}
